@@ -1,14 +1,10 @@
-Create_parking_lot 6
-Park KA-01-HH-1234 driver_age 21
-Park PB-01-HH-1234 driver_age 21
-Slot_numbers_for_driver_of_age 21
-Park PB-01-TG-2341 driver_age 40
-Slot_number_for_car_with_number PB-01-HH-1234
-Leave 2
-Park HR-29-TG-3098 driver_age 39
-Park PB-01-HH-1274 driver_age 21
-Slot_numbers_for_driver_of_age 21
-Slot_numbers_for_driver_of_age 40
-Vehicle_registration_number_for_driver_of_age 18
-Leave 1
-Park PB-01-HH-12774 driver_age 21
+Create_parking_lot 3 2
+Park KA-01-HH-1234 driver_age 21 TRUCK
+Park PB-01-HH-1234 driver_age 21 TRUCK
+Park PB-01-TG-2341 driver_age 40 TRUCK
+Park PB-01-TG-2346 driver_age 40 TRUCK
+Leave Floor1 2 TRUCK
+Park HR-29-TG-3098 driver_age 39 TRUCK
+Park PB-01-HH-1274 driver_age 21 TRUCK
+Leave Floor2 1 TRUCK
+Park PB-01-HH-12774 driver_age 21 TRUCK

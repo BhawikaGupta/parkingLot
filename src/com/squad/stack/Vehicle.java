@@ -5,13 +5,21 @@ package com.squad.stack;
  */
 public class Vehicle {
     String vehicleNumber;
-    String vehicleSlot;
     String vehicleDriverAge;
+    VehicleType vehicleType;
 
-    public Vehicle(String vehicleNumber, String vehicleSlot, String vehicleDriverAge) {
+    public Vehicle(String vehicleNumber, String vehicleDriverAge, VehicleType vehicleType) {
         this.vehicleNumber = vehicleNumber;
-        this.vehicleSlot = vehicleSlot;
         this.vehicleDriverAge = vehicleDriverAge;
+        this.vehicleType = vehicleType;
+    }
+
+    public VehicleType getVehicleType() {
+        return vehicleType;
+    }
+
+    public void setVehicleType(VehicleType vehicleType) {
+        this.vehicleType = vehicleType;
     }
 
     public String getVehicleNumber() {
@@ -20,14 +28,6 @@ public class Vehicle {
 
     public void setVehicleNumber(String vehicleNumber) {
         this.vehicleNumber = vehicleNumber;
-    }
-
-    public String getVehicleSlot() {
-        return vehicleSlot;
-    }
-
-    public void setVehicleSlot(String vehicleSlot) {
-        this.vehicleSlot = vehicleSlot;
     }
 
     public String getVehicleDriverAge() {
